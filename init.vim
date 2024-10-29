@@ -52,4 +52,30 @@ colorscheme onedark
 lua << EOF
   require("flutter-tools").setup {} -- use defaults
 EOF
-
+lua << EOF
+require('flutter-tools').setup {
+    ui = {
+        border = "rounded", -- Cambia el estilo de borde si lo deseas
+    },
+    decorations = {
+        statusline = {
+            app_version = true,
+            device = true,
+        },
+    },
+    widget_guides = {
+        enabled = true,
+    },
+    lsp = {
+        color = {
+            enabled = true,
+            background = true,
+            foreground = false,
+        },
+    },
+    debugger = {
+        enabled = true,
+        run_via_dap = true,
+    },
+}
+EOF

@@ -44,6 +44,7 @@ Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'stevearc/dressing.nvim' " optional for vim.ui.select
+Plug 'mfussenegger/nvim-dap'
 Plug 'nvim-flutter/flutter-tools.nvim'
 
 " IDE
