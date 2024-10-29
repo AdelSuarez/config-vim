@@ -27,7 +27,7 @@ Plug 'sheerun/vim-polyglot'
 
 " Status bar
 "Plug 'maximbas/lightline-ale'
-" Plug 'itchyny/lightline.vim'
+Plug 'itchyny/lightline.vim'
 
 " Typing
 Plug 'jiangmiao/auto-pairs'
