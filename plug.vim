@@ -46,6 +46,8 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'stevearc/dressing.nvim' " optional for vim.ui.select
 Plug 'mfussenegger/nvim-dap'
 Plug 'nvim-flutter/flutter-tools.nvim'
+Plug 'Neevash/awesome-flutter-snippets'
+Plug 'fedepujol/bracketpair.nvim'
 
 " IDE
 Plug 'junegunn/fzf'
